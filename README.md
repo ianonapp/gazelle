@@ -10,7 +10,7 @@ needs. Gazelle is written in PHP, Twig, JavaScript, and MySQL.
 * [NodeJS 12+](https://nodejs.org/en/) (required)
 * [Memcached](http://memcached.org/) (required)
 * [Sphinx 2.0.6 or newer](http://sphinxsearch.com/) (required)
-* [ocelot](https://github.com/OPSnet/Ocelot) (required)
+* [ocelot](https://github.com/ianonapp/ocelot) (required)
 * [procps-ng](http://sourceforge.net/projects/procps-ng/) (recommended)
 
 ## Logchecker
@@ -34,11 +34,11 @@ Docker is used to develop Gazelle. See https://docs.docker.com/engine/install/
 for more information on getting Docker set up locally.
 
 ### Ocelot
-The [ocelot](https://github.com/OPSnet/Ocelot) repository is used to build the Ocelot image. To keep things simple, check out the source in a
+The [ocelot](https://github.com/ianonapp/ocelot) repository is used to build the Ocelot image. To keep things simple, check out the source in a
 sibling directory to Gazelle.
 
 ```bash
-$ git clone https://github.com/OPSnet/ocelot
+$ git clone https://github.com/ianonapp/ocelot
 $ cd ocelot
 $ docker build . -t ocelot
 ```
@@ -133,10 +133,10 @@ repo and place them alongside the `Dockerfile-gitlab`. Then run
 in the gazelle repo's root directory (this one).
 
 ## Contact and Discussion
-Feel free to join #develop on irc.orpheus.network to discuss any
+Feel free to join #develop on irc.ianon.app to discuss any
 questions concerning Gazelle (or any of the repos published by
-Orpheus).
+iAnon).
 
 ## Open source
-Create issues at https://github.com/OPSnet
+Create issues at https://github.com/ianonapp
 Patches welcome!
